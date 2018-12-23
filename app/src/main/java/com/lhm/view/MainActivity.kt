@@ -82,7 +82,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener, CompoundButton.O
 
         message = findViewById(R.id.message)
 
-        fragment1 = newTextFragmentInstance(getString(R.string.para1))
+        fragment1 = newTextFragmentInstance(getString(R.string.update))
         fragment2 = newTextFragmentInstance(getString(R.string.para2))
         fragment3 = newTextFragmentInstance(getString(R.string.para3))
         fragment4 = newTextFragmentInstance(getString(R.string.para4))
@@ -144,7 +144,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener, CompoundButton.O
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when (item.itemId) {
             R.id.menu_github -> {
-                val url = "https://github.com/Ashok-Varma/BottomNavigation"
+                val url = "https://github.com/truesA/BottomNavigationBar"
                 val i = Intent(Intent.ACTION_VIEW)
                 i.data = Uri.parse(url)
                 startActivity(i)
