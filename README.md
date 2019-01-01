@@ -6,7 +6,7 @@ update
   
     查看 BottomNavigationBar fixed_ex dimen文件 看见修改属性
   ```java
-   "fixed_ex_icon_grid">20dp  ---fixe ex icon_grid 大小 -->
+        "fixed_ex_icon_grid">20dp  ---fixe ex icon_grid 大小 -->
         "fixed_ex_label_active">12sp  ---fixe ex  textview 选中文字大小 -->
         "fixed_ex_label_inactive">12sp  ---fixe ex  textview 未选中文字大小 -->
         "fixed_ex_height_bottom_padding">6dp   ---fixe ex  textview 距离底部dp -->
